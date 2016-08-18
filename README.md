@@ -110,7 +110,7 @@ var questions = [
 		type: "boolean",
 		required: true,
 		target: {
-			file: "datasources",
+			file: "config",
 			position: "properties.isOld"
 		}
 	},
