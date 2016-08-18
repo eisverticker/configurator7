@@ -1,0 +1,28 @@
+{
+  "name": "configurator7",
+  "version": "1.0.0",
+  "description": "A simple tool which takes advantage of the cli to ask the user about informations whatever your app needs and then saves the information in a JSON file you want.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eisverticker/configurator7.git"
+  },
+  "keywords": [
+    "configurator",
+    "cli",
+    "javascript"
+  ],
+  "author": "Alexander Noack <eisverticker@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eisverticker/configurator7/issues"
+  },
+  "homepage": "https://github.com/eisverticker/configurator7#readme",
+  "dependencies": {
+    "nested-property": "0.0.7",
+    "prompt": "^1.0.0"
+  }
+}
