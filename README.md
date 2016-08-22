@@ -1,5 +1,5 @@
 # configurator7!
-[configurator7 appearance](/look.png)
+![configurator7 appearance](/look.png)
 
 A simple tool which takes advantage of the cli to ask the user about whatever your app needs to know and then saves the information in a JSON file to a location you want.
 
