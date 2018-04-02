@@ -4,7 +4,8 @@
   "description": "A simple tool which takes advantage of the cli to ask the user about informations whatever your app needs and then saves the information in a JSON file you want.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/eslint/bin/eslint.js ."
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,14 @@
   "dependencies": {
     "nested-property": "0.0.7",
     "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
